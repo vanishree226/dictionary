@@ -10,7 +10,7 @@ btn.addEventListener("click", () => {
             result.innerHTML = `
             <div class="word">
                     <h3>${inpWord}</h3>
-                </div>
+             </div>
                 <div class="details">
                     <p>${data[0].meanings[0].partOfSpeech}</p>
                     <p>/${data[0].phonetic}/</p>
